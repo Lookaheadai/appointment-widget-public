@@ -4505,8 +4505,8 @@ Business email: ${n?.email}`), S(""), W(""));
               class: "flex items-center justify-center w-100 h-12 px-4 bg-gray-200 hover:bg-gray-300 rounded-full shadow-lg cursor-pointer",
               children: [O("img", {
                 src: "https://firebasestorage.googleapis.com/v0/b/lookahead-ef698.appspot.com/o/assets%2Flogo.png?alt=media&token=d42c0343-f4bb-4187-b26e-8741fbb647fa",
-                alt: n?.name,
-                class: "mr-4 max-h-6 max-w-6 h-6 w-6 object-cover rounded-full"
+                alt: "Lookahead Logo",
+                class: "h-6 w-6 max-h-6 max-w-6 object-cover rounded-full mr-4"
               }), O("span", {
                 class: "text-black",
                 children: "Add free live chat to your site"

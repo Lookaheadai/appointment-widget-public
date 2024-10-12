@@ -4262,7 +4262,7 @@ const Oe = "MM/DD/YYYY hh:mm A", C0 = ({
         currentTime: `${m.slice(0, -2)}:${m.slice(-2)}`
       }).then((w) => {
         if (w.data.success) {
-          if (w.data.wkoq === "appointment") {
+          if (w.data.wkoq === void 0 || w.data.wkoq === "appointment") {
             const P = [];
             for (const F of w.data.slots)
               for (const k of F.items) {
